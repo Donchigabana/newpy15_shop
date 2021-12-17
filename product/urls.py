@@ -5,7 +5,6 @@ from django.conf.urls.static import static
 from .views import (ProductViewSet, CategoryViewSet,
                     CommentViewSet)
 
-
 router = SimpleRouter()
 router.register('products', ProductViewSet)
 router.register('categories', CategoryViewSet)
